@@ -1,261 +1,256 @@
----
-
-name: elite-color-system
-description: Prevent repetitive AI-generated color palettes. Create unique, professional, human-designed color systems inspired by branding, psychology, visual hierarchy, accessibility, and modern product design. Use for websites, dashboards, SaaS products, portfolios, ERP systems, landing pages, mobile apps, and enterprise software.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Elite Color System
 
-## Core Objective
+## Purpose
 
-Never generate websites that look like generic AI templates.
+Prevent repetitive AI-generated website colors.
 
-Every project must receive a deliberately chosen color system based on:
+Every project must receive a unique, professional, human-designed color system based on:
 
-* Industry
-* Brand personality
-* Target audience
-* Product purpose
-* Emotional impact
-* Visual hierarchy
+- Industry
+- Brand personality
+- User psychology
+- Visual hierarchy
+- Accessibility
+- Product goals
 
-Color selection is a design decision, not decoration.
-
----
-
-# Forbidden AI Patterns
-
-Avoid overusing:
-
-* Blue + Purple gradients
-* Cyan + Purple combinations
-* Neon glow everywhere
-* Generic dark mode palettes
-* Tailwind default color combinations
-* Identical button colors across projects
-* One-color websites
-
-If the generated design looks similar to a previous design, redesign the palette.
+Color is a strategic design tool, not decoration.
 
 ---
 
-# Human Designer Thinking Process
+# Forbidden AI Color Habits
+
+Never default to:
+
+- Blue + Purple gradients
+- Cyan + Purple combinations
+- Neon glows everywhere
+- Generic Tailwind palettes
+- Same button colors across projects
+- Same dark themes for every website
+- Random rainbow accents
+
+If a design looks similar to a previous project, create a new palette.
+
+---
+
+# Color Selection Process
 
 Before selecting colors determine:
 
-### What is being built?
+### Industry
 
 Examples:
 
 Finance:
-
-* Trust
-* Stability
-* Confidence
-
-Healthcare:
-
-* Cleanliness
-* Safety
-* Calmness
+- Trust
+- Stability
+- Security
 
 Manufacturing:
+- Reliability
+- Precision
+- Efficiency
 
-* Reliability
-* Efficiency
-* Precision
+Healthcare:
+- Safety
+- Calmness
+- Cleanliness
 
-Luxury Brand:
+Luxury:
+- Prestige
+- Exclusivity
+- Sophistication
 
-* Exclusivity
-* Elegance
-* Prestige
-
-AI Product:
-
-* Innovation
-* Intelligence
-* Modernity
-
-ERP System:
-
-* Productivity
-* Clarity
-* Structure
+AI Products:
+- Innovation
+- Intelligence
+- Modernity
 
 Portfolio:
+- Personality
+- Creativity
+- Memorability
 
-* Personality
-* Creativity
-* Memorability
-
-Color must support the purpose.
-
----
-
-# Professional Palette Construction
-
-Every project requires:
-
-### Primary Color
-
-Brand identity color.
-
-### Secondary Color
-
-Supporting accent.
-
-### Neutral Scale
-
-Backgrounds and typography.
-
-### Success Color
-
-Status indicators.
-
-### Warning Color
-
-Alerts.
-
-### Error Color
-
-Critical actions.
+Color choices must reinforce the product's purpose.
 
 ---
 
-# Example Manufacturing ERP Palette
+# Palette Structure
 
-```css id="8v9t2e"
---primary: #1f4e79;
---secondary: #4f6d7a;
+Every project should define:
 
---bg: #f5f7fa;
---surface: #ffffff;
+```css
+--primary:
+--secondary:
 
---text: #1b2430;
---muted: #5b6770;
+--background:
+--surface:
 
---success: #2e7d32;
---warning: #ed6c02;
---danger: #d32f2f;
+--text:
+--muted:
+
+--success:
+--warning:
+--danger:
 ```
 
-Feels industrial and professional.
+Never build a design with only one color.
 
 ---
 
-# Example Luxury Palette
+# Manufacturing / ERP Palette Example
 
-```css id="mbk63d"
---primary: #b08d57;
---secondary: #d4af37;
+```css
+:root{
+  --primary:#1f4e79;
+  --secondary:#4f6d7a;
 
---bg: #0f0f0f;
---surface: #171717;
+  --background:#f5f7fa;
+  --surface:#ffffff;
 
---text: #f5f5f5;
---muted: #b3b3b3;
+  --text:#1b2430;
+  --muted:#5b6770;
+
+  --success:#2e7d32;
+  --warning:#ed6c02;
+  --danger:#d32f2f;
+}
 ```
 
-Feels premium.
+Reason:
+
+- Industrial
+- Professional
+- Reliable
+- Enterprise-friendly
 
 ---
 
-# Example Modern SaaS Palette
+# Luxury Palette Example
 
-```css id="2z0h6q"
---primary: #2563eb;
---secondary: #0ea5e9;
+```css
+:root{
+  --primary:#b08d57;
+  --secondary:#d4af37;
 
---bg: #f8fafc;
---surface: #ffffff;
+  --background:#0f0f0f;
+  --surface:#171717;
 
---text: #0f172a;
---muted: #64748b;
+  --text:#f5f5f5;
+  --muted:#b3b3b3;
+}
 ```
 
-Feels scalable and trustworthy.
+Reason:
+
+- Premium
+- High-end
+- Exclusive
+
+---
+
+# Modern SaaS Palette Example
+
+```css
+:root{
+  --primary:#2563eb;
+  --secondary:#0ea5e9;
+
+  --background:#f8fafc;
+  --surface:#ffffff;
+
+  --text:#0f172a;
+  --muted:#64748b;
+}
+```
+
+Reason:
+
+- Trustworthy
+- Clean
+- Scalable
 
 ---
 
 # Color Distribution Rule
 
-Use:
+Use colors intentionally.
 
-```text
 60% Background
+
 30% Surface
+
 10% Accent
-```
 
-Do not make everything colorful.
+Never make every element colorful.
 
-Professional interfaces rely on restraint.
+Professional products use restraint.
 
 ---
 
 # Contrast Rules
 
-Text must always pass accessibility standards.
+Always prioritize readability.
 
 Avoid:
 
-* Light gray text on white
-* Dark gray text on black
-* Low contrast buttons
+- Light gray text on white
+- Dark gray text on black
+- Low contrast buttons
+- Low contrast links
 
-Always prioritize readability over aesthetics.
+Text must remain readable in all situations.
 
 ---
 
-# Accent Color Strategy
+# Accent Color Rules
 
 Accent colors should be rare.
 
-Use only for:
+Use accents only for:
 
-* CTA buttons
-* Important metrics
-* Links
-* Active states
-* Highlights
+- CTA buttons
+- Important metrics
+- Active navigation
+- Links
+- Status indicators
 
-If every element uses the accent color, the accent loses meaning.
+If everything is highlighted, nothing is highlighted.
 
 ---
 
-# Industry-Specific Recommendations
+# Industry Recommendations
 
 ## Manufacturing / RMG
 
 Preferred:
 
-* Steel Blue
-* Slate
-* Navy
-* Industrial Gray
-* Deep Green
+- Steel Blue
+- Navy
+- Slate
+- Graphite
+- Deep Green
 
 Avoid:
 
-* Neon Purple
-* Bright Pink
-* Gaming-style palettes
+- Neon Purple
+- Bright Pink
+- Gaming palettes
 
 ---
 
-## Banking
+## Finance
 
 Preferred:
 
-* Navy
-* Emerald
-* Charcoal
+- Navy
+- Emerald
+- Charcoal
 
 Avoid:
 
-* Excessive gradients
-* Bright orange interfaces
+- Excessive gradients
+- Flashy colors
 
 ---
 
@@ -263,13 +258,13 @@ Avoid:
 
 Preferred:
 
-* Teal
-* Soft Green
-* Clean White
+- Teal
+- Soft Green
+- White
 
 Avoid:
 
-* Aggressive reds
+- Aggressive Red
 
 ---
 
@@ -277,13 +272,13 @@ Avoid:
 
 Preferred:
 
-* Blue
-* Warm Orange
-* Neutral White
+- Blue
+- Orange
+- Neutral White
 
 Avoid:
 
-* Dark intimidating themes
+- Heavy dark themes
 
 ---
 
@@ -291,34 +286,34 @@ Avoid:
 
 Preferred:
 
-* Sophisticated neutrals
-* Controlled accents
-* Minimal gradients
+- Sophisticated neutrals
+- Controlled accents
+- Minimal gradients
 
 Avoid:
 
-* Excessive cyberpunk aesthetics
+- Cyberpunk overload
+- Excessive glows
 
 ---
 
-# Human Design References
+# Human Designer References
 
-When choosing palettes, think visually similar to:
+Think like designers behind:
 
-* Apple
-* Stripe
-* Linear
-* Notion
-* Figma
-* Framer
-* Vercel
-* Airtable
-* Slack
-* Arc Browser
+- Apple
+- Stripe
+- Linear
+- Notion
+- Framer
+- Figma
+- Vercel
+- Airtable
+- Slack
 
 Do not copy them.
 
-Understand why their colors work.
+Understand the reasoning behind their color systems.
 
 ---
 
@@ -326,55 +321,56 @@ Understand why their colors work.
 
 Cards:
 
-```css id="r0c4z8"
+```css
 background: var(--surface);
 ```
 
 Headings:
 
-```css id="4i5z3r"
+```css
 color: var(--text);
 ```
 
 Muted Text:
 
-```css id="2o7q1j"
+```css
 color: var(--muted);
 ```
 
-Primary Actions:
+Primary Button:
 
-```css id="v1m8xy"
+```css
 background: var(--primary);
 ```
 
-Secondary Actions:
+Secondary Button:
 
-```css id="m7w4ts"
+```css
 border: 1px solid var(--primary);
 ```
 
 ---
 
-# Palette Generation Rule
+# Palette Generation Rules
 
-For every new project:
+For every project:
 
 1. Analyze industry.
-2. Analyze target audience.
-3. Analyze desired emotion.
-4. Create a unique palette.
-5. Explain palette reasoning internally.
-6. Never reuse palettes automatically.
+2. Analyze audience.
+3. Analyze emotions.
+4. Build a unique palette.
+5. Avoid previous palettes.
+6. Ensure accessibility.
+7. Ensure brand consistency.
 
-Every design should feel intentionally branded.
+Never reuse colors automatically.
 
 ---
 
-# Final Requirement
+# Final Rule
 
-A user should never be able to look at two generated websites and say:
+Users should never look at two generated websites and think:
 
-"These are obviously AI-generated."
+"This was generated by the same AI."
 
-The color system must feel as if it was selected by a senior product designer with years of experience, not by a template generator.
+Every project must feel intentionally branded and professionally designed by an experienced product designer.
