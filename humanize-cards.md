@@ -1,5 +1,5 @@
 ---
-name: un-ai-cards
+name: humanize-cards
 description: Design and build human-looking UI cards without common AI-generated card patterns (giant icons, emojis, gradients, glassmorphism, huge radii, fake stats, random badges, "View Details" everywhere). Use this whenever creating or reviewing dashboards, KPI cards, profile cards, status cards, or any card-based UI, and whenever the user asks for UI/UX that doesn't look "AI-generated," templated, or overdesigned. Prioritizes content hierarchy, information density, usability, consistency, and purposeful grouping over decoration. Also enforces a house rule against em dashes in generated text.
 ---
 
