@@ -1,6 +1,6 @@
 ---
 name: cssman
-description: CSS cleanup and refactoring skill that removes AI-generated design "tells" — glassmorphism, excessive border-radius, oversized shadows, gradient overuse, glow effects, hover-scale animations, everything-is-a-card layouts — while preserving functionality and the project's existing brand/design language. Use this whenever the user asks to clean up, refine, de-AI-ify, humanize, simplify, or make CSS "feel less generated" or "less templatey"; when they ask you to review or refactor an existing stylesheet, component CSS, or Tailwind/Bootstrap-generated styles for visual polish; or when they mention a UI looking "too AI," "generic," "over-designed," or wanting more intentional visual hierarchy. Do NOT use for writing brand-new CSS from scratch with no existing styles to clean up — this skill assumes an existing stylesheet to inspect and refine.
+description: CSS cleanup and refactoring skill that removes AI-generated design "tells" - glassmorphism, excessive border-radius, oversized shadows, gradient overuse, glow effects, hover-scale animations, everything-is-a-card layouts - while preserving functionality and the project's existing brand/design language. Use this whenever the user asks to clean up, refine, de-AI-ify, humanize, simplify, or make CSS "feel less generated" or "less templatey"; when they ask you to review or refactor an existing stylesheet, component CSS, or Tailwind/Bootstrap-generated styles for visual polish; or when they mention a UI looking "too AI," "generic," "over-designed," or wanting more intentional visual hierarchy. Do NOT use for writing brand-new CSS from scratch with no existing styles to clean up - this skill assumes an existing stylesheet to inspect and refine.
 ---
 
 # CSSMAN
@@ -927,7 +927,7 @@ If the answer is no to most of these, simplify it.
 
 Apply changes in this order.
 
-## Level 1 — Visual Noise
+## Level 1 - Visual Noise
 
 Remove:
 
@@ -937,7 +937,7 @@ Remove:
 * Excessive shadows
 * Excessive animations
 
-## Level 2 — Repetition
+## Level 2 - Repetition
 
 Fix:
 
@@ -946,7 +946,7 @@ Fix:
 * Every section being a card
 * Every element using the same spacing
 
-## Level 3 — Hierarchy
+## Level 3 - Hierarchy
 
 Fix:
 
@@ -956,7 +956,7 @@ Fix:
 * Section spacing
 * Muted text
 
-## Level 4 — Code Quality
+## Level 4 - Code Quality
 
 Fix:
 
@@ -966,7 +966,7 @@ Fix:
 * Specificity problems
 * Unnecessary `!important`
 
-## Level 5 — Polish
+## Level 5 - Polish
 
 Only after the above:
 
