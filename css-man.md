@@ -21,25 +21,6 @@ The goal is to:
 * Preserve the project's brand identity
 * Make components feel intentionally designed rather than generated from a template
 * Keep the code maintainable and predictable
-
-CSSMAN works with any project:
-
-* Django
-* React
-* Next.js
-* Vue
-* Laravel
-* PHP
-* Static HTML
-* Tailwind-generated CSS
-* Bootstrap-based projects
-* Plain CSS
-* SCSS
-* Component CSS
-* Dashboard applications
-* SaaS applications
-* Enterprise applications
-
 ---
 
 # Core Principle
